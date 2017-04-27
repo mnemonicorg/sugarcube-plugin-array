@@ -1,7 +1,7 @@
 {
-  "name": "littlefork-boilerplate-plugin",
+  "name": "littlefork-plugin-collection",
   "version": "0.0.1",
-  "description": "A scaffolding repository to quick start a new littlefork plugin.",
+  "description": "Simple collection transformers",
   "main": "_dist/index.js",
   "config": {
     "srcDir": "lib",
@@ -29,17 +29,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/littlefork/littlefork-boilerplate-plugin.git"
+    "url": "git+https://gitlab.com/littlefork/littlefork-plugin-collection.git"
   },
   "keywords": [
     "littlefork"
   ],
-  "author": "crito <crito@cryptodrunks.net>",
+  "author": "ttc & syrianarchive",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://gitlab.com/littlefork/littlefork-boilerplate-plugin/issues"
+    "url": "https://gitlab.com/littlefork/littlefork-plugin-collection/issues"
   },
-  "homepage": "https://gitlab.com/littlefork/littlefork-boilerplate-plugin#README",
+  "homepage": "https://gitlab.com/littlefork/littlefork-plugin-collection#README",
   "devDependencies": {
     "babel-cli": "^6.24.0",
     "babel-eslint": "^7.2.1",
