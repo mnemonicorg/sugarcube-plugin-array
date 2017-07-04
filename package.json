@@ -39,7 +39,7 @@
   "bugs": {
     "url": "https://gitlab.com/littlefork/littlefork-plugin-collection/issues"
   },
-  "homepage": "https://gitlab.com/littlefork/littlefork-plugin-collection#README",
+  "homepage": "https://gitlab.com/littlefork/littlefork-plugin-collection #README",
   "devDependencies": {
     "babel-cli": "^6.24.0",
     "babel-eslint": "^7.2.1",
