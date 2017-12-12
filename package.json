@@ -1,7 +1,7 @@
 {
-  "name": "littlefork-plugin-collection",
+  "name": "sugarcube-plugin-array",
   "version": "0.0.2",
-  "description": "Simple collection transformers",
+  "description": "Simple collection/array transformers",
   "main": "_dist/index.js",
   "config": {
     "srcDir": "lib",
@@ -29,17 +29,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/littlefork/littlefork-plugin-collection.git"
+    "url": "git+https://github.com/syrianarchive/sugarcube-plugin-array.git"
   },
   "keywords": [
-    "littlefork"
+    "sugarcube"
   ],
-  "author": "ttc & syrianarchive",
+  "author": "syrianarchive",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://gitlab.com/littlefork/littlefork-plugin-collection/issues"
+    "url": "https://github.com/syrianarchive/sugarcube-plugin-arrayissues"
   },
-  "homepage": "https://gitlab.com/littlefork/littlefork-plugin-collection #README",
+  "homepage": "https://gitlab.com/littlefork/sugarcube-plugin-array#README",
   "devDependencies": {
     "babel-cli": "^6.24.0",
     "babel-eslint": "^7.2.1",
