@@ -10,7 +10,7 @@
     "reporter": "spec"
   },
   "scripts": {
-    "test": "mocha -c --reporter $npm_package_config_reporter --require test/helpers.js --compilers js:babel-register $npm_package_config_testDir/**/*.spec.js",
+    "test": "",
     "lint": "eslint packages/**/lib/**/*.js test/**/*.js boilerplate-plugin/lib/**/*.js",
     "compile": "babel -d $npm_package_config_distDir $npm_package_config_srcDir",
     "watch:test": "chokidar \"$npm_package_config_testDir/**/*.js\" \"$npm_package_config_srcDir/**/*.js\" -c \"npm run test -s\"",
@@ -40,7 +40,8 @@
   },
   "homepage": "https://gitlab.com/littlefork/sugarcube-plugin-array#README",
   "devDependencies": {
-    "babel-cli": "^6.24.0",
+    "@sugarcube/eslint-config-sugarcube": "^0.2.0",
+    "babel-cli": "^6.26.0",
     "babel-eslint": "^7.2.1",
     "babel-preset-es2015": "^6.24.0",
     "chai": "^3.5.0",
@@ -49,14 +50,14 @@
     "concurrently": "^3.4.0",
     "documentation": "^4.0.0-beta.18",
     "eslint": "^4.9.0",
-    "@sugarcube/eslint-config-sugarcube": "^0.2.0",
     "jsverify": "^0.8.1",
     "mocha": "^3.2.0",
     "sinon": "^2.1.0"
   },
   "dependencies": {
-    "bluebird": "^3.5.0",
     "@sugarcube/core": "^0.3.0",
+    "bluebird": "^3.5.0",
+    "fs": "0.0.1-security",
     "lodash": "^4.17.4"
   }
 }
